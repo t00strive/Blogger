@@ -16,6 +16,7 @@
     </modules>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-boot-dependencies.version>2.5.7</spring-boot-dependencies.version>
     </properties>
 
@@ -57,6 +58,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.5.7</version>
             </plugin>
         </plugins>
     </build>
