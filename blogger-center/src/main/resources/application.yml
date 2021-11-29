@@ -1,0 +1,16 @@
+server:
+  port: 80
+# freemarker静态资源配置
+
+spring:
+  freemarker:
+    # 设定ftl文件路径
+    template-loader-path: classpath:/templates
+    suffix: .ftl
+    charset: UTF-8
+    # 关闭缓存，及时刷新，上线生产环境需要修改为true
+    cache: false
+    content-type: text/html
+    expose-request-attributes: true
+    expose-session-attributes: true
+    request-context-attribute: request
